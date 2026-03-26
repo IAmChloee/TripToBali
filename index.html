@@ -336,7 +336,7 @@
     <div class="overview-grid">
       <div class="ov-card"><div class="ov-icon">✈️</div><div class="ov-label">入境機場</div><div class="ov-value">Ngurah Rai (DPS)</div></div>
       <div class="ov-card"><div class="ov-icon">💱</div><div class="ov-label">貨幣</div><div class="ov-value">IDR（印尼盾）</div></div>
-      <div class="ov-card"><div class="ov-icon">🪪</div><div class="ov-label">簽證</div><div class="ov-value">台灣免簽 30 天</div></div>
+      <div class="ov-card ov-card-clickable" onclick="document.getElementById('visa-modal').classList.add('open')" title="點擊查看簽證詳情"><div class="ov-icon">🪪</div><div class="ov-label">簽證</div><div class="ov-value">eVOA 電子落地簽</div><div style="font-size:.68rem;color:var(--gold);margin-top:6px;letter-spacing:1px;">點擊查看詳情 ›</div></div>
       <div class="ov-card"><div class="ov-icon">🌤️</div><div class="ov-label">四月天氣</div><div class="ov-value">28–32°C 過渡季</div></div>
       <div class="ov-card"><div class="ov-icon">🕐</div><div class="ov-label">時差</div><div class="ov-value">台灣 −1 小時</div></div>
       <div class="ov-card"><div class="ov-icon">🔌</div><div class="ov-label">插座</div><div class="ov-value">歐規兩圓孔</div></div>
@@ -1472,6 +1472,169 @@
     navLinks.forEach(a => a.style.color = a.getAttribute('href') === '#' + current ? 'var(--gold)' : '');
   });
 </script>
+
+<!-- ── VISA MODAL ── -->
+<div id="visa-modal" class="visa-modal-overlay" onclick="if(event.target===this)this.classList.remove('open')">
+  <div class="visa-modal-box">
+    <button class="visa-modal-close" onclick="document.getElementById('visa-modal').classList.remove('open')" aria-label="關閉">✕</button>
+    <div class="visa-modal-header">
+      <span style="font-size:2rem;">🪪</span>
+      <div>
+        <div class="visa-modal-tag">簽證說明</div>
+        <div class="visa-modal-title">印尼 eVOA 電子落地簽（台灣護照）</div>
+      </div>
+    </div>
+    <div class="visa-stats">
+      <div class="visa-stat">
+        <div class="visa-stat-label">簽證費用</div>
+        <div class="visa-stat-value">IDR 500,000</div>
+        <div class="visa-stat-sub">約 TWD 1,000</div>
+      </div>
+      <div class="visa-stat">
+        <div class="visa-stat-label">峇里島觀光稅</div>
+        <div class="visa-stat-value">IDR 150,000</div>
+        <div class="visa-stat-sub">約 TWD 300，2024/2/14 起徵收</div>
+      </div>
+      <div class="visa-stat">
+        <div class="visa-stat-label">停留天數</div>
+        <div class="visa-stat-value">30 天</div>
+        <div class="visa-stat-sub">可延簽一次（再 +30 天）</div>
+      </div>
+      <div class="visa-stat">
+        <div class="visa-stat-label">申請時機</div>
+        <div class="visa-stat-value">出發前 7–14 天</div>
+        <div class="visa-stat-sub">也可於機場現場申請落地簽</div>
+      </div>
+    </div>
+    <div class="visa-details">
+      <div class="visa-detail-col">
+        <div class="visa-detail-title">📋 申請所需文件</div>
+        <ul class="visa-list">
+          <li>護照效期 6 個月以上（JPG 檔）</li>
+          <li>近期大頭照（JPG 檔）</li>
+          <li>回程機票或轉往他國機票（PDF）</li>
+          <li>信用卡（線上刷卡支付）</li>
+        </ul>
+      </div>
+      <div class="visa-detail-col">
+        <div class="visa-detail-title">⚠️ 重要注意事項</div>
+        <ul class="visa-list">
+          <li>eVOA 資料須與護照完全一致，否則視為無效且不退費</li>
+          <li>多人同行需分開刷卡申請</li>
+          <li>觀光稅建議入境前於 Love Bali APP 預繳</li>
+          <li>官方申請網站：molina.imigrasi.go.id</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .ov-card-clickable {
+    cursor: pointer;
+    transition: transform .2s, box-shadow .2s, border-color .2s;
+    border: 1px solid transparent;
+  }
+  .ov-card-clickable:hover {
+    transform: translateY(-3px);
+    border-color: var(--gold);
+    box-shadow: 0 6px 20px rgba(200,155,60,.25);
+  }
+
+  .visa-modal-overlay {
+    display: none;
+    position: fixed; inset: 0; z-index: 200;
+    background: rgba(10,10,20,.7);
+    backdrop-filter: blur(4px);
+    align-items: center; justify-content: center;
+    padding: 20px;
+  }
+  .visa-modal-overlay.open {
+    display: flex;
+    animation: modalFadeIn .22s ease;
+  }
+  @keyframes modalFadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  .visa-modal-box {
+    background: #1a1a2e;
+    border: 1px solid rgba(255,255,255,.12);
+    border-radius: 18px;
+    padding: 36px;
+    max-width: 680px; width: 100%;
+    max-height: 90vh; overflow-y: auto;
+    position: relative;
+    animation: modalSlideUp .25s ease;
+  }
+  @keyframes modalSlideUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to   { transform: none; opacity: 1; }
+  }
+
+  .visa-modal-close {
+    position: absolute; top: 16px; right: 18px;
+    background: rgba(255,255,255,.1); border: none;
+    color: rgba(255,255,255,.7); font-size: 1rem;
+    width: 32px; height: 32px; border-radius: 50%;
+    cursor: pointer; display: flex; align-items: center; justify-content: center;
+    transition: background .2s;
+  }
+  .visa-modal-close:hover { background: rgba(255,255,255,.2); color: #fff; }
+
+  .visa-modal-header {
+    display: flex; align-items: center; gap: 14px; margin-bottom: 24px;
+  }
+  .visa-modal-tag {
+    color: var(--gold); font-size: .75rem; letter-spacing: 3px;
+    font-weight: 600; text-transform: uppercase;
+  }
+  .visa-modal-title {
+    color: #fff; font-size: 1.15rem; font-weight: 700; margin-top: 4px;
+  }
+
+  .visa-stats {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px; margin-bottom: 24px;
+  }
+  .visa-stat {
+    background: rgba(255,255,255,.06);
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 10px; padding: 14px;
+  }
+  .visa-stat-label {
+    color: rgba(255,255,255,.45); font-size: .68rem;
+    letter-spacing: 2px; text-transform: uppercase; margin-bottom: 6px;
+  }
+  .visa-stat-value { color: #fff; font-weight: 700; font-size: 1rem; }
+  .visa-stat-sub { color: rgba(255,255,255,.5); font-size: .78rem; margin-top: 3px; }
+
+  .visa-details {
+    border-top: 1px solid rgba(255,255,255,.1);
+    padding-top: 20px;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 24px;
+  }
+  @media (max-width: 520px) {
+    .visa-details { grid-template-columns: 1fr; }
+    .visa-modal-box { padding: 24px; }
+  }
+  .visa-detail-title {
+    color: var(--gold); font-size: .8rem; font-weight: 700;
+    letter-spacing: 1px; margin-bottom: 10px;
+  }
+  .visa-list {
+    list-style: none; padding: 0; margin: 0;
+  }
+  .visa-list li {
+    color: rgba(255,255,255,.75); font-size: .83rem;
+    line-height: 1.6; padding: 4px 0 4px 16px; position: relative;
+  }
+  .visa-list li::before {
+    content: '·'; position: absolute; left: 0;
+    color: var(--teal); font-weight: 700;
+  }
+</style>
 
 <!-- Leaflet Map Script -->
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>

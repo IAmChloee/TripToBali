@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npx surge:*)",
+      "Bash(npm list:*)",
+      "Bash(npm install:*)",
+      "Bash(netlify:*)",
+      "Read(//c/Users/angelaYaChang/AppData/Roaming/npm/**)",
+      "Read(//c/Users/angelaYaChang/.npm-global/bin/**)",
+      "Bash(export PATH=\"$PATH:/c/Users/angelaYaChang/AppData/Roaming/npm\")",
+      "Bash(node:*)",
+      "Bash(npx vercel:*)",
+      "Bash(npx --yes vercel --version)",
+      "Read(//c/Users/angelaYaChang/.netlify/**)",
+      "Read(//c/Users/angelaYaChang/.config/netlify/**)",
+      "Read(//c/Users/angelaYaChang/.local/share/**)",
+      "Read(//c/Users/angelaYaChang/**)",
+      "Read(//c/Users/angelaYaChang/.vercel/**)",
+      "Bash(gh --version)",
+      "Bash(git config:*)",
+      "Bash(echo \"EXIT:$?\")",
+      "WebFetch(domain:www.klook.com)",
+      "WebSearch",
+      "WebFetch(domain:bobotravel.tw)",
+      "WebFetch(domain:ninetyroadtravel.com)"
+    ]
+  }
+}
