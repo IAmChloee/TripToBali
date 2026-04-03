@@ -246,6 +246,17 @@
       background: linear-gradient(135deg, #e0f7fa, #e8f5e9);
       border-left: 4px solid var(--teal);
     }
+    .tl-alt {
+      background: #fafafa;
+      border: 2px dashed #c8a800;
+      position: relative;
+    }
+    .tl-alt-badge {
+      display: inline-block; background: #c8a800; color: #fff;
+      font-size: .65rem; font-weight: 700; letter-spacing: 1.5px;
+      padding: 2px 8px; border-radius: 4px; margin-bottom: 8px;
+      text-transform: uppercase;
+    }
     .klook-btn {
       display: inline-flex; align-items: center; gap: 6px;
       background: #ff5c35; color: #fff;
@@ -630,16 +641,16 @@
       <div class="day-header">
         <div class="day-number">01</div>
         <div>
-          <div class="day-title">抵達 · 南部安頓</div>
-          <div class="day-date">4月25日（六）· Seminyak / Canggu</div>
+          <div class="day-title">抵達 · 努沙杜瓦度假村</div>
+          <div class="day-date">4月25日（六）· Nusa Dua</div>
         </div>
       </div>
       <div class="timeline">
         <div class="tl-item">
           <div class="tl-dot"></div>
           <div class="tl-card">
-            <div class="tl-time">抵達後</div>
-            <div class="tl-name">✈️ Ngurah Rai 機場入境</div>
+            <div class="tl-time">17:40</div>
+            <div class="tl-name">✈️ 抵達 Ngurah Rai 國際機場 (DPS)</div>
             <div class="tl-desc">出關後換匯（機場匯率較差，建議只換少量應急），辦理當地 SIM 卡（Telkomsel 或 XL 約 IDR 80,000，10GB 以上）。</div>
             <div class="tl-tags">
               <span class="tl-tag tag-tip">💡 SIM 卡建議在機場內辦理，方便導航</span>
@@ -649,11 +660,11 @@
         <div class="tl-item">
           <div class="tl-dot"></div>
           <div class="tl-card">
-            <div class="tl-time">機場前往飯店</div>
-            <div class="tl-name">🚗 包車接機前往 Seminyak</div>
-            <div class="tl-desc">建議出發前預訂接機服務，比現場叫車便宜且安全。行程約 30–45 分鐘，費用約 IDR 200,000–350,000。</div>
+            <div class="tl-time">~18:30 出發</div>
+            <div class="tl-name">🚗 包車前往 AYANA Resort · Jimbaran（順路必停！）</div>
+            <div class="tl-desc">從機場到 AYANA Jimbaran 僅 <strong>15 分鐘</strong>，完全順路，不用繞路！行李放車上，先去享受日落再 check-in。建議出發前預訂接機服務，請司機先載到 AYANA 停留後再送到 Village Bali。</div>
             <div class="tl-tags">
-              <span class="tl-tag tag-cost">💰 IDR 200,000–350,000</span>
+              <span class="tl-tag tag-trans">🚗 機場 → AYANA 約 15 分鐘</span>
               <span class="tl-tag tag-warn">⚠️ 避免機場門口的非正規拉客</span>
             </div>
           </div>
@@ -661,34 +672,36 @@
         <div class="tl-item">
           <div class="tl-dot"></div>
           <div class="tl-card tl-highlight">
-            <div class="tl-time">下午</div>
-            <div class="tl-name">🏊 飯店 Check-in · 享受設施</div>
-            <div class="tl-desc">放下行李後先放鬆，享受飯店泳池或 SPA 設施，調整時差與舟車勞頓的疲勞。第一天無需趕行程，把精力留到晚上的日落。</div>
+            <div class="tl-time">~19:00</div>
+            <div class="tl-name">🍸 Rock Bar, Bali · AYANA Resort ⭐</div>
+            <div class="tl-desc">建在 14 公尺岩壁上的傳奇酒吧，俯瞰印度洋，被譽為「峇厘島最壯觀的 Sunset Bar」。以一杯熱帶調酒迎接第一個峇厘島夜晚，氣氛絕對難忘。Rock Bar 開放至凌晨 1:00，強烈建議提前訂位。</div>
             <div class="tl-tags">
-              <span class="tl-tag tag-tip">💡 飯店下午茶或 Happy Hour 是很好的放鬆選擇</span>
-            </div>
-          </div>
-        </div>
-        <div class="tl-item">
-          <div class="tl-dot"></div>
-          <div class="tl-card">
-            <div class="tl-time">傍晚</div>
-            <div class="tl-name">🌊 Seminyak Beach 散步</div>
-            <div class="tl-desc">沿著 Seminyak 海灘漫步，感受峇厘島的海風與氛圍。這裡有許多可以喝飲料看海的沙灘 Bar，隨性而坐享受日落。</div>
-            <div class="tl-tags">
-              <span class="tl-tag tag-cost">💰 免費</span>
+              <span class="tl-tag tag-cost">💰 調酒 IDR 200,000–400,000/杯</span>
+              <span class="tl-tag tag-tip">💡 建議提前在官網或 Klook 訂位，熱門位置常滿</span>
             </div>
           </div>
         </div>
         <div class="tl-item">
           <div class="tl-dot"></div>
           <div class="tl-card tl-highlight">
-            <div class="tl-time">晚餐 17:30</div>
-            <div class="tl-name">🍽️ La Plancha 彩色豆袋沙灘餐廳</div>
-            <div class="tl-desc">Seminyak 最具特色的海灘餐廳，五彩豆袋椅直接坐在沙灘上，配著日落享用西班牙料理與調酒，是峇厘島必打卡的第一頓晚餐。</div>
+            <div class="tl-time">~20:00 晚餐</div>
+            <div class="tl-name">🍽️ oneeighty° Dayclub · AYANA Resort ⭐</div>
+            <div class="tl-desc">同在 AYANA，緊鄰 Rock Bar，僅需步行幾分鐘。oneeighty° 擁有無敵海景、無邊際泳池與精緻料理，是峇厘島最高端的餐飲體驗之一。傍晚後轉為餐廳 Bar 模式，氣氛完美。</div>
             <div class="tl-tags">
-              <span class="tl-tag tag-cost">💰 IDR 200,000–400,000/人</span>
-              <span class="tl-tag tag-tip">⏰ 17:30 抵達，搶日落位置</span>
+              <span class="tl-tag tag-cost">💰 主餐 IDR 300,000–600,000/人</span>
+              <span class="tl-tag tag-tip">💡 Rock Bar + oneeighty 同在 AYANA，步行即達</span>
+            </div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-time">~22:00 Check-in</div>
+            <div class="tl-name">🏨 Village Bali · Nusa Dua</div>
+            <div class="tl-desc">享用完晚餐後包車前往 Village Bali 辦理入住，從 AYANA 到 Nusa Dua 約 25–30 分鐘。雖然是深夜抵達，不用擔心，飯店 24 小時皆可 check-in。</div>
+            <div class="tl-tags">
+              <span class="tl-tag tag-trans">🚗 AYANA → Village Bali 約 25–30 分鐘</span>
+              <span class="tl-tag tag-tip">💡 提前告知飯店深夜抵達，確保房間已備妥</span>
             </div>
           </div>
         </div>
@@ -700,67 +713,63 @@
       <div class="day-header">
         <div class="day-number">02</div>
         <div>
-          <div class="day-title">烏魯瓦圖懸崖 · 卡克火舞 ⭐</div>
-          <div class="day-date">4月26日（日）· Seminyak → Uluwatu → Jimbaran</div>
+          <div class="day-title">佩尼達島一日遊 ⭐</div>
+          <div class="day-date">4月26日（日）· Nusa Penida（當天來回）</div>
         </div>
       </div>
       <div class="timeline">
         <div class="tl-item">
           <div class="tl-dot"></div>
           <div class="tl-card">
-            <div class="tl-time">09:00–12:00</div>
-            <div class="tl-name">🏊 飯店悠閒早晨</div>
-            <div class="tl-desc">上午無需趕行程！在飯店泳池享受悠閒早午餐，或前往 Canggu 海灘散步。下午才出發前往烏魯瓦圖，把上午留給自己。</div>
+            <div class="tl-time">早上</div>
+            <div class="tl-name">🍳 飯店早餐後出發</div>
+            <div class="tl-desc">在飯店吃完早餐後，前往碼頭搭乘快船前往佩尼達島。建議出發前服用暈船藥。</div>
             <div class="tl-tags">
-              <span class="tl-tag tag-tip">☕ 推薦 Canggu 特色咖啡廳早午餐</span>
+              <span class="tl-tag tag-warn">💊 記得提前服用暈船藥！</span>
             </div>
           </div>
         </div>
         <div class="tl-item">
           <div class="tl-dot"></div>
           <div class="tl-card">
-            <div class="tl-time">13:00</div>
-            <div class="tl-name">🚗 包車前往烏魯瓦圖</div>
-            <div class="tl-desc">從 Seminyak 前往 Uluwatu 約 45 分鐘，建議包半日車，司機在等待期間於附近等候接送。</div>
+            <div class="tl-time">前往碼頭</div>
+            <div class="tl-name">⛵ 搭船前往佩尼達島</div>
+            <div class="tl-desc">快船船程約 40 分鐘抵達 Nusa Penida。海象較強時船身搖晃，暈船者提前服藥準備。</div>
             <div class="tl-tags">
-              <span class="tl-tag tag-trans">🚗 包半日車 IDR 500,000–700,000</span>
+              <span class="tl-tag tag-trans">⛵ 快船來回，船程約 40 分鐘</span>
             </div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-card tl-highlight">
+            <div class="tl-time">島上活動</div>
+            <div class="tl-name">🤿 浮潛 · 玻璃海 · 破碎沙灘</div>
+            <div class="tl-desc">體驗佩尼達島精華：Crystal Bay 浮潛（珊瑚礁豐富，能見度極高，可能遇見巨型曼塔魟魚）、欣賞清透如玻璃的海水，以及著名的 Broken Beach（天然拱橋環抱的圓形海灣）。</div>
+            <div class="tl-tags">
+              <span class="tl-tag tag-tip">🤿 會游泳即可，聽從導遊指示</span>
+              <span class="tl-tag tag-warn">⚠️ 注意海浪，退潮才可下水</span>
+            </div>
+            <a href="https://www.klook.com/zh-TW/activity/15758-nusa-penida-full-day-trip-bali/" class="klook-btn" target="_blank" rel="noopener">Klook 預訂佩尼達島一日遊</a>
           </div>
         </div>
         <div class="tl-item">
           <div class="tl-dot"></div>
           <div class="tl-card">
-            <div class="tl-time">14:30–17:00</div>
-            <div class="tl-name">🛕 Uluwatu 懸崖神廟</div>
-            <div class="tl-desc">建於 70 公尺懸崖上的古廟，俯瞰印度洋壯闊景色。廟內長尾猴非常頑皮，會搶眼鏡、相機、帽子，切勿手持食物或閃亮物品。</div>
-            <div class="tl-tags">
-              <span class="tl-tag tag-cost">💰 IDR 50,000（含沙龍）</span>
-              <span class="tl-tag tag-warn">⚠️ 小心猴子搶劫！</span>
-            </div>
+            <div class="tl-time">傍晚</div>
+            <div class="tl-name">⛵ 搭船返回本島</div>
+            <div class="tl-desc">搭快船返回碼頭，包車回努沙杜瓦飯店休息，繼續享受飯店設施。</div>
           </div>
         </div>
         <div class="tl-item">
           <div class="tl-dot"></div>
           <div class="tl-card tl-highlight">
-            <div class="tl-time">17:30–19:00</div>
-            <div class="tl-name">🔥 卡克火舞表演 Kecak Fire Dance ⭐</div>
-            <div class="tl-desc">峇厘島最震撼的傳統藝術表演！百人男性以人聲「恰克恰克」伴奏，演繹印度史詩《羅摩衍那》，在懸崖邊夕陽背景下進行，視覺與聽覺雙重震撼。務必提早入場搶前排座位。</div>
+            <div class="tl-time">晚上</div>
+            <div class="tl-name">💆 回飯店做 SPA</div>
+            <div class="tl-desc">佩尼達島地形顛簸，一日遊體力消耗大！回飯店預約峇厘式全身按摩（Balinese Massage），在奢華渡假村環境中徹底舒緩身體，這是今天最完美的收尾。</div>
             <div class="tl-tags">
-              <span class="tl-tag tag-cost">💰 IDR 150,000</span>
-              <span class="tl-tag tag-tip">⏰ 17:30 前入場，表演 18:00 準時開始</span>
-            </div>
-            <a href="https://www.klook.com/zh-TW/activity/21638-uluwatu-kecak-fire-dance-show-tickets-bali/" class="klook-btn" target="_blank" rel="noopener">Klook 預訂門票</a>
-          </div>
-        </div>
-        <div class="tl-item">
-          <div class="tl-dot"></div>
-          <div class="tl-card tl-highlight">
-            <div class="tl-time">19:30</div>
-            <div class="tl-name">🦞 Jimbaran 海鮮燒烤晚餐</div>
-            <div class="tl-desc">從 Uluwatu 返程順路前往 Jimbaran 海灘，直接在沙灘上享用新鮮海鮮燒烤：龍蝦、螃蟹、大蝦、魚類等，邊吃邊聽海浪聲，是峇厘島必吃的晚餐體驗。</div>
-            <div class="tl-tags">
-              <span class="tl-tag tag-cost">💰 IDR 300,000–800,000/人（依海鮮種類）</span>
-              <span class="tl-tag tag-tip">💡 Jimbaran 在 Uluwatu 返回 Seminyak 途中，完美順路</span>
+              <span class="tl-tag tag-tip">💡 回飯店做個 SPA 是最好的選擇</span>
+              <span class="tl-tag tag-cost">💰 SPA IDR 250,000–450,000/2 小時</span>
             </div>
           </div>
         </div>
@@ -772,55 +781,68 @@
       <div class="day-header">
         <div class="day-number">03</div>
         <div>
-          <div class="day-title">移師烏布 · 梯田文化</div>
-          <div class="day-date">4月27日（一）· Seminyak → Ubud</div>
+          <div class="day-title">烏魯瓦圖火舞 · 移師烏布</div>
+          <div class="day-date">4月27日（一）· Nusa Dua → Uluwatu → Ubud</div>
         </div>
       </div>
       <div class="timeline">
         <div class="tl-item">
           <div class="tl-dot"></div>
-          <div class="tl-card">
-            <div class="tl-time">09:00</div>
-            <div class="tl-name">🧳 退房，前往烏布</div>
-            <div class="tl-desc">Seminyak 至烏布約 1.5 小時車程（視交通狀況），建議包車前往，司機可沿途帶你順道停靠景點。</div>
+          <div class="tl-card tl-highlight">
+            <div class="tl-time">上午</div>
+            <div class="tl-name">🏊 享受飯店泳池</div>
+            <div class="tl-desc">上午無需趕行程，在努沙杜瓦飯店泳池悠閒放鬆，享受南部渡假村的最後美好時光。中午辦理退房。</div>
             <div class="tl-tags">
-              <span class="tl-tag tag-trans">🚗 包車 IDR 350,000–500,000</span>
+              <span class="tl-tag tag-tip">💡 最後機會好好享受奢華渡假村設施</span>
+            </div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-time">中午</div>
+            <div class="tl-name">🧳 辦理退房</div>
+            <div class="tl-desc">退房後包車前往烏魯瓦圖廟，行李可先交由司機保管。</div>
+            <div class="tl-tags">
+              <span class="tl-tag tag-trans">🚗 包車前往 Uluwatu</span>
+            </div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-time">下午</div>
+            <div class="tl-name">🛕 烏魯瓦圖廟 (Uluwatu Temple)</div>
+            <div class="tl-desc">建於 70 公尺懸崖上的千年古廟，俯瞰印度洋壯闊景色。廟內長尾猴非常頑皮，會搶眼鏡、相機、帽子，切勿手持食物或閃亮物品。</div>
+            <div class="tl-tags">
+              <span class="tl-tag tag-cost">💰 IDR 50,000（含沙龍）</span>
+              <span class="tl-tag tag-warn">⚠️ 小心猴子搶劫！</span>
             </div>
           </div>
         </div>
         <div class="tl-item">
           <div class="tl-dot"></div>
           <div class="tl-card tl-highlight">
-            <div class="tl-time">10:30–12:00</div>
-            <div class="tl-name">🌾 Tegallalang 梯田</div>
-            <div class="tl-desc">聯合國世界文化遺產，層疊翠綠的稻田梯田依山而建，搭配椰子樹和遠山，是峇厘島最具代表性的田園景觀。沿途有許多咖啡廳可選擇梯田景觀座位。</div>
+            <div class="tl-time">17:30 前入場</div>
+            <div class="tl-name">🔥 卡克火舞 Kecak Fire Dance ⭐</div>
+            <div class="tl-desc">峇厘島最震撼的傳統藝術表演！百人男性以人聲「恰克恰克」伴奏，演繹印度史詩《羅摩衍那》，在懸崖邊夕陽背景下進行，視覺與聽覺雙重震撼。務必提早入場搶前排座位。</div>
             <div class="tl-tags">
-              <span class="tl-tag tag-cost">💰 免費（拍照捐款 IDR 15,000）</span>
-              <span class="tl-tag tag-tip">📸 早上光線最佳，遊客最少</span>
+              <span class="tl-tag tag-cost">💰 IDR 150,000</span>
+              <span class="tl-tag tag-tip">⏰ 17:30 前入場，表演 18:00 準時開始</span>
             </div>
+            <a href="https://www.klook.com/zh-TW/activity/21638-uluwatu-kecak-fire-dance-show-tickets-bali/" class="klook-btn" target="_blank" rel="noopener">Klook 預訂門票</a>
           </div>
         </div>
         <div class="tl-item">
           <div class="tl-dot"></div>
-          <div class="tl-card">
-            <div class="tl-time">12:30–14:00</div>
-            <div class="tl-name">🛍️ Ubud 傳統市場 + 午餐</div>
-            <div class="tl-desc">烏布皇宮旁的傳統市場，販售各式手工藝品、布料、木雕、銀飾等。記得殺價，通常可以砍到一半以下。附近有許多傳統料理餐廳。</div>
+          <div class="tl-card tl-alt">
+            <div class="tl-alt-badge">☆ 備取選項</div>
+            <div class="tl-time">~19:15（火舞結束後）</div>
+            <div class="tl-name">🍸 Rock Bar, Bali · AYANA Resort（備取）</div>
+            <div class="tl-desc">Uluwatu 火舞結束後，AYANA 的 Rock Bar 距此僅 <strong>10–15 分鐘車程</strong>！可以在前往烏布之前，順路停留一小時享用調酒、感受夜晚的岩壁酒吧氣氛，作為告別南部的完美驚嘆號。Rock Bar 開放至凌晨 1:00，完全來得及。</div>
             <div class="tl-tags">
-              <span class="tl-tag tag-cost">💰 午餐 IDR 80,000–150,000</span>
-              <span class="tl-tag tag-tip">💡 開口出價從標價的 30% 開始</span>
-            </div>
-          </div>
-        </div>
-        <div class="tl-item">
-          <div class="tl-dot"></div>
-          <div class="tl-card">
-            <div class="tl-time">15:00–17:00</div>
-            <div class="tl-name">🐒 猴子森林 Sacred Monkey Forest</div>
-            <div class="tl-desc">烏布市中心的神聖叢林，700 多隻長尾猴自由漫步，三座古廟隱藏在遮天蔽日的大樹間，氣氛神秘又有趣。</div>
-            <div class="tl-tags">
-              <span class="tl-tag tag-cost">💰 IDR 80,000</span>
-              <span class="tl-tag tag-warn">⚠️ 不要帶食物進入，小心手機和眼鏡</span>
+              <span class="tl-tag tag-cost">💰 調酒 IDR 200,000–400,000/杯</span>
+              <span class="tl-tag tag-warn">⚠️ 若選此備取，烏布抵達時間將延後至 22:30 後</span>
             </div>
           </div>
         </div>
@@ -828,22 +850,11 @@
           <div class="tl-dot"></div>
           <div class="tl-card">
             <div class="tl-time">晚上</div>
-            <div class="tl-name">🍖 晚餐：Ibu Oka 烤乳豬</div>
-            <div class="tl-desc">烏布最著名的傳統烤乳豬（Babi Guling），由已故美食家 Anthony Bourdain 大力推薦，香脆的豬皮配上各種香料，是峇厘島的極致美食體驗。</div>
+            <div class="tl-name">🏨 搭車前往烏布 Check-in · The Wakanda Resort</div>
+            <div class="tl-desc">火舞結束後直接搭車前往烏布辦理入住。The Wakanda Resort, a Pramana Experience 是烏布的精品叢林渡假村，被熱帶植物環繞，游泳池如置身叢林之中。從 Uluwatu 前往烏布約 1–1.5 小時車程，抵達後稍作梳洗休息。</div>
             <div class="tl-tags">
-              <span class="tl-tag tag-cost">💰 IDR 70,000–150,000/人</span>
-              <span class="tl-tag tag-warn">⚠️ 通常賣完即止，建議早點去</span>
-            </div>
-          </div>
-        </div>
-        <div class="tl-item">
-          <div class="tl-dot"></div>
-          <div class="tl-card" style="border-left:3px solid #e05c5c;">
-            <div class="tl-time">21:00</div>
-            <div class="tl-name">⏰ 重要提醒：明日清晨出發！</div>
-            <div class="tl-desc">明天 Day 4 需要 <strong>03:00 出發</strong>前往巴杜爾火山看日出，務必今晚 21:00 前就寢。請提前設好 <strong>02:30 鬧鐘</strong>，準備好防寒衣物（山頂約 12°C）和手電筒。</div>
-            <div class="tl-tags">
-              <span class="tl-tag tag-warn">⚠️ 02:30 起床 · 03:00 出發 — 明日最重要的行程！</span>
+              <span class="tl-tag tag-trans">🚗 Uluwatu → Ubud 約 1–1.5 小時</span>
+              <span class="tl-tag tag-tip">💡 The Wakanda Resort · a Pramana Experience</span>
             </div>
           </div>
         </div>
@@ -855,86 +866,55 @@
       <div class="day-header">
         <div class="day-number">04</div>
         <div>
-          <div class="day-title">巴杜爾火山日出 · 下午飯店放鬆</div>
-          <div class="day-date">4月28日（二）· 03:00 清晨出發挑戰</div>
+          <div class="day-title">烏布購物 · 音療體驗</div>
+          <div class="day-date">4月28日（二）· Ubud</div>
         </div>
       </div>
       <div class="timeline">
         <div class="tl-item">
           <div class="tl-dot"></div>
-          <div class="tl-card">
-            <div class="tl-time">02:30</div>
-            <div class="tl-name">⏰ 起床 · 出發前準備</div>
-            <div class="tl-desc">確認保暖衣物（山頂約 12°C）、頭燈或手電筒、防風外套。司機已安排於 03:00 在飯店門口等候。</div>
+          <div class="tl-card tl-highlight">
+            <div class="tl-time">上午</div>
+            <div class="tl-name">🛍️ 水明漾廣場 或 烏布市集購物</div>
+            <div class="tl-desc">逛 Seminyak Square（水明漾廣場）或烏布傳統市集，挑選紀念品、手工藝品、布料、木雕、銀飾等。烏布市集記得殺價，開口從標價 30% 開始。</div>
             <div class="tl-tags">
-              <span class="tl-tag tag-tip">💡 提前備好熱水瓶和能量棒</span>
+              <span class="tl-tag tag-tip">💡 手工藝品、峇厘咖啡、Lulur 磨砂膏都是好選擇</span>
+              <span class="tl-tag tag-warn">💸 殺價文化，通常可砍至一半以下</span>
             </div>
           </div>
         </div>
         <div class="tl-item">
           <div class="tl-dot"></div>
           <div class="tl-card tl-highlight">
-            <div class="tl-time">03:00–08:30</div>
-            <div class="tl-name">🌋 巴杜爾火山日出吉普車之旅</div>
-            <div class="tl-desc">搭乘專業 4WD 吉普車征服火山地形，在山頂等待壯麗日出從火山湖冉冉升起。隨行攝影師協助拍攝，雲海與火山口交織的晨光景致，是一生難忘的體驗。含早餐（火山口邊吃水煮蛋）。</div>
+            <div class="tl-time">午餐</div>
+            <div class="tl-name">🦆 Sun Sun Warung · 髒鴨飯 Bebek Betutu ⭐</div>
+            <div class="tl-desc">烏布必吃名物！「髒鴨飯」其實是以傳統香料塗抹的慢火烤鴨（Bebek Betutu），外皮酥脆、肉質入味軟嫩，配上米飯與各式小菜，是最道地的峇厘島風味餐。Sun Sun Warung 份量十足、價格實惠，當地人也愛來。</div>
             <div class="tl-tags">
-              <span class="tl-tag tag-cost">💰 含吉普車、嚮導、攝影師、早餐</span>
+              <span class="tl-tag tag-cost">💰 IDR 60,000–120,000/人</span>
+              <span class="tl-tag tag-tip">💡 「髒鴨」名字雖然奇特，但完全是正宗峇厘料理，不要被名字嚇跑！</span>
             </div>
-            <a href="https://www.klook.com/zh-TW/activity/73775-mount-batur-4wd-jeep-sunrise-tour-photographer-trip-bali/" class="klook-btn" target="_blank" rel="noopener">Klook 預訂吉普車日出團</a>
-          </div>
-        </div>
-        <div class="tl-item">
-          <div class="tl-dot"></div>
-          <div class="tl-card">
-            <div class="tl-time">08:30–10:00</div>
-            <div class="tl-name">🌄 Kintamani 高原眺望 + 咖啡廳</div>
-            <div class="tl-desc">返程途中在金塔馬尼高原（海拔 1,500m）停留，居高臨下俯瞰巴杜爾火山湖全景，在景觀咖啡廳喝杯峇厘島 Kopi Luwak 麝香貓咖啡，作為日出冒險的完美收尾。</div>
-            <div class="tl-tags">
-              <span class="tl-tag tag-cost">💰 咖啡 IDR 50,000–120,000</span>
-            </div>
-          </div>
-        </div>
-        <div class="tl-item">
-          <div class="tl-dot"></div>
-          <div class="tl-card">
-            <div class="tl-time">10:30</div>
-            <div class="tl-name">🏨 返回烏布飯店</div>
-            <div class="tl-desc">從火山返回烏布約 1–1.5 小時，回飯店沖澡換裝，補眠休息。</div>
           </div>
         </div>
         <div class="tl-item">
           <div class="tl-dot"></div>
           <div class="tl-card tl-highlight">
-            <div class="tl-time">11:00–15:30</div>
-            <div class="tl-name">🏊 飯店泳池 · SPA · 補眠</div>
-            <div class="tl-desc">今天最精彩的行程已在早晨完成！下午就好好享受飯店設施：泳池漂浮放空、預約峇厘式全身按摩（Balinese Massage），讓身體在叢林 SPA 環境中徹底舒緩。</div>
+            <div class="tl-time">16:30</div>
+            <div class="tl-name">🎵 音療行程 Sound Healing ⭐</div>
+            <div class="tl-desc">峇厘島獨特的身心靈體驗！透過頌缽（Singing Bowls）的共鳴頻率，讓聲波滲透全身，達到深層放鬆與能量淨化的效果。在寧靜的烏布環境中徹底放鬆，感受與自然的連結。</div>
             <div class="tl-tags">
-              <span class="tl-tag tag-cost">💰 飯店 SPA IDR 250,000–450,000/2 小時</span>
-              <span class="tl-tag tag-tip">💡 提前向飯店預訂 SPA，通常有內部優惠</span>
+              <span class="tl-tag tag-tip">🧘 保持開放心態，閉上眼睛專注感受</span>
+              <span class="tl-tag tag-cost">💰 約 IDR 150,000–300,000</span>
             </div>
           </div>
         </div>
         <div class="tl-item">
           <div class="tl-dot"></div>
           <div class="tl-card">
-            <div class="tl-time">16:00–17:30</div>
-            <div class="tl-name">💧 Tirta Empul 聖泉廟淨化儀式</div>
-            <div class="tl-desc">峇厘島最重要的宗教聖地，廟內有 30 個聖水噴泉，遊客可穿著沙龍布親身體驗古老淨化儀式，按照指引在每個泉水下祈禱，是極為獨特的文化體驗。</div>
+            <div class="tl-time">晚上</div>
+            <div class="tl-name">🍴 烏布市集晚餐</div>
+            <div class="tl-desc">音療結束後在烏布市集周邊挑選餐廳享用晚餐，推薦傳統印尼料理或峇厘島特色菜，感受烏布的夜晚氛圍。</div>
             <div class="tl-tags">
-              <span class="tl-tag tag-cost">💰 IDR 50,000（含沙龍租借）</span>
-              <span class="tl-tag tag-tip">👗 著裝莊重，避免緊身或暴露服裝</span>
-            </div>
-          </div>
-        </div>
-        <div class="tl-item">
-          <div class="tl-dot"></div>
-          <div class="tl-card">
-            <div class="tl-time">19:30</div>
-            <div class="tl-name">💃 烏布皇宮傳統舞蹈（可選）</div>
-            <div class="tl-desc">如果體力允許，烏布皇宮（Puri Saren Agung）每晚有 Legong 舞、Barong 舞等表演，在古老王宮庭院中欣賞，氣氛極佳。體力不足可跳過，明天繼續精彩行程。</div>
-            <div class="tl-tags">
-              <span class="tl-tag tag-cost">💰 IDR 100,000–150,000</span>
-              <span class="tl-tag tag-tip">⏰ 表演 20:00 開始，19:30 入場</span>
+              <span class="tl-tag tag-cost">💰 IDR 80,000–200,000/人</span>
             </div>
           </div>
         </div>
@@ -946,109 +926,17 @@
       <div class="day-header">
         <div class="day-number">05</div>
         <div>
-          <div class="day-title">Nusa Penida 離島一日遊 ⭐</div>
-          <div class="day-date">4月29日（三）· 最推薦的一天</div>
+          <div class="day-title">叢林 ATV 冒險 · 飯店享受</div>
+          <div class="day-date">4月29日（三）· Ubud 叢林冒險日</div>
         </div>
       </div>
       <div class="timeline">
         <div class="tl-item">
           <div class="tl-dot"></div>
           <div class="tl-card">
-            <div class="tl-time">06:30</div>
-            <div class="tl-name">🚗 飯店前往 Sanur 港口</div>
-            <div class="tl-desc">從烏布前往 Sanur 港口約 45–60 分鐘，建議 06:30 出發，趕上 07:30 的快船班次。</div>
-            <div class="tl-tags">
-              <span class="tl-tag tag-trans">🚗 包車前往港口 IDR 200,000</span>
-            </div>
-          </div>
-        </div>
-        <div class="tl-item">
-          <div class="tl-dot"></div>
-          <div class="tl-card tl-highlight">
-            <div class="tl-time">07:30</div>
-            <div class="tl-name">⛵ 珀尼達島一日遊出發</div>
-            <div class="tl-desc">快船從 Sanur 出發，航行約 30–45 分鐘抵達 Nusa Penida。含導遊、島上 4WD 接送、所有主要景點（Kelingking、Broken Beach、Crystal Bay），全程無需操心交通。</div>
-            <div class="tl-tags">
-              <span class="tl-tag tag-cost">💰 快船來回 + 一日遊含接送</span>
-              <span class="tl-tag tag-tip">💊 暈船者請提前服用暈船藥</span>
-            </div>
-            <a href="https://www.klook.com/zh-TW/activity/15758-nusa-penida-full-day-trip-bali/" class="klook-btn" target="_blank" rel="noopener">Klook 預訂珀尼達島一日遊</a>
-          </div>
-        </div>
-        <div class="tl-item">
-          <div class="tl-dot"></div>
-          <div class="tl-card tl-highlight">
-            <div class="tl-time">09:00–11:00</div>
-            <div class="tl-name">🦖 Kelingking Beach · T-Rex 斷崖</div>
-            <div class="tl-desc">Nusa Penida 最標誌性景觀！從懸崖頂俯瞰酷似恐龍頭的岩石半島和湛藍海灣，是峇厘島地區最驚豔的自然景觀。可以選擇徒步下到海灘（約 45 分鐘陡坡），或僅在頂部欣賞。</div>
-            <div class="tl-tags">
-              <span class="tl-tag tag-cost">💰 免費</span>
-              <span class="tl-tag tag-warn">⚠️ 下坡路陡峭，穿防滑鞋，量力而為</span>
-            </div>
-          </div>
-        </div>
-        <div class="tl-item">
-          <div class="tl-dot"></div>
-          <div class="tl-card">
-            <div class="tl-time">11:30–13:00</div>
-            <div class="tl-name">🌊 Broken Beach + Angel's Billabong</div>
-            <div class="tl-desc">Broken Beach 是一個天然拱橋環抱的圓形海灣，海水翠綠清澈。相鄰的 Angel's Billabong 是天然岩石游泳池，退潮時可下水游泳，景色如夢似幻。</div>
-            <div class="tl-tags">
-              <span class="tl-tag tag-cost">💰 免費</span>
-              <span class="tl-tag tag-warn">⚠️ 注意海浪大小，退潮才可下水</span>
-            </div>
-          </div>
-        </div>
-        <div class="tl-item">
-          <div class="tl-dot"></div>
-          <div class="tl-card">
-            <div class="tl-time">13:00–14:00</div>
-            <div class="tl-name">🍱 島上午餐</div>
-            <div class="tl-desc">在當地餐廳享用簡單的印尼料理，補充體力。</div>
-            <div class="tl-tags">
-              <span class="tl-tag tag-cost">💰 IDR 50,000–100,000</span>
-            </div>
-          </div>
-        </div>
-        <div class="tl-item">
-          <div class="tl-dot"></div>
-          <div class="tl-card tl-highlight">
-            <div class="tl-time">14:30–16:00</div>
-            <div class="tl-name">🐟 Crystal Bay 浮潛 · 曼塔魟魚</div>
-            <div class="tl-desc">Crystal Bay 是與巨大曼塔魟魚同游的最佳地點！這裡的珊瑚礁豐富，能見度極高。在峇厘島洋流影響下，曼塔魟魚全年可見，體長可達 3–5 公尺，壯觀無比。</div>
-            <div class="tl-tags">
-              <span class="tl-tag tag-cost">💰 浮潛器材+導遊 IDR 150,000–250,000</span>
-              <span class="tl-tag tag-tip">🤿 會游泳即可，洋流較強時聽從導遊指示</span>
-            </div>
-          </div>
-        </div>
-        <div class="tl-item">
-          <div class="tl-dot"></div>
-          <div class="tl-card">
-            <div class="tl-time">17:00</div>
-            <div class="tl-name">⛵ 返回峇厘島</div>
-            <div class="tl-desc">搭快船回 Sanur，包車返回烏布，今天體力消耗大，早點休息。</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- DAY 6 -->
-    <div class="day-panel" id="day-6">
-      <div class="day-header">
-        <div class="day-number">06</div>
-        <div>
-          <div class="day-title">烏布 ATV 越野 · 下午飯店放鬆</div>
-          <div class="day-date">4月30日（四）· Ubud 叢林冒險日</div>
-        </div>
-      </div>
-      <div class="timeline">
-        <div class="tl-item">
-          <div class="tl-dot"></div>
-          <div class="tl-card">
-            <div class="tl-time">07:30</div>
-            <div class="tl-name">🚗 前往 ATV 出發點</div>
-            <div class="tl-desc">從烏布飯店出發，前往 Ayung 河谷 ATV 活動中心，約 20–30 分鐘車程。建議穿著輕便運動服，帶換洗衣物（全程會弄濕）。</div>
+            <div class="tl-time">上午</div>
+            <div class="tl-name">🚗 前往 ATV 出發點（10 分鐘車程）</div>
+            <div class="tl-desc">從烏布飯店出發，前往 ATV 活動中心，車程僅約 10 分鐘，非常方便。建議穿著輕便運動服，帶換洗衣物（全程會弄濕弄髒）。</div>
             <div class="tl-tags">
               <span class="tl-tag tag-tip">💡 行程含接送服務，可請飯店安排</span>
             </div>
@@ -1057,9 +945,9 @@
         <div class="tl-item">
           <div class="tl-dot"></div>
           <div class="tl-card tl-highlight">
-            <div class="tl-time">08:00–12:00</div>
-            <div class="tl-name">🏍️ 峇厘島烏布 ATV 越野之旅</div>
-            <div class="tl-desc">駕駛全地形車（ATV）穿越烏布叢林、稻田、泥濘山徑，最終挑戰 Ayung 河谷地形，沿途景致壯觀。行程包含安全說明、ATV 騎乘、淋浴設施，全程約 3–4 小時，老手新手都適合。</div>
+            <div class="tl-time">上午（約 1 小時）</div>
+            <div class="tl-name">🏍️ 烏布 ATV 越野體驗 ⭐</div>
+            <div class="tl-desc">駕駛全地形車（ATV）穿越烏布叢林、稻田和泥濘山徑，感受峇厘島的原始自然風光。行程約 1 小時，含安全說明、ATV 騎乘、淋浴設施，老手新手都適合。</div>
             <div class="tl-tags">
               <span class="tl-tag tag-cost">💰 含 ATV 設備、安全裝備、嚮導</span>
               <span class="tl-tag tag-warn">⚠️ 帶防水袋保護手機，備換洗衣物</span>
@@ -1070,34 +958,84 @@
         <div class="tl-item">
           <div class="tl-dot"></div>
           <div class="tl-card">
-            <div class="tl-time">12:30–13:30</div>
-            <div class="tl-name">🍽️ 午餐 · 返回飯店</div>
-            <div class="tl-desc">ATV 行程通常含簡餐，或在活動中心附近餐廳用餐後返回烏布飯店，沖澡換裝休息。</div>
+            <div class="tl-time">午餐後</div>
+            <div class="tl-name">🏨 返回飯店享受設施</div>
+            <div class="tl-desc">ATV 結束後返回烏布飯店，沖澡換裝，享受烏布飯店多有的森林景觀泳池，在叢林環境中充電放鬆。</div>
             <div class="tl-tags">
-              <span class="tl-tag tag-cost">💰 午餐 IDR 80,000–150,000（如未含）</span>
+              <span class="tl-tag tag-tip">🌿 烏布飯店多有森林景觀無邊際泳池，不可錯過</span>
             </div>
           </div>
         </div>
         <div class="tl-item">
           <div class="tl-dot"></div>
           <div class="tl-card tl-highlight">
-            <div class="tl-time">14:00–18:00</div>
-            <div class="tl-name">🏊 飯店泳池 · SPA · 叢林下午茶</div>
-            <div class="tl-desc">今天上午已經消耗大量體力，把下午留給飯店！在無邊際泳池放鬆，預約 2 小時峇厘式深層按摩（Balinese Massage），或在飯店叢林景觀餐廳享用下午茶，徹底充電。</div>
+            <div class="tl-time">下午（可選）</div>
+            <div class="tl-name">👨‍🍳 飯店烹飪課 Cooking Class</div>
+            <div class="tl-desc">可以在飯店參加當地的烹飪課（Cooking Class）！學習製作傳統峇厘島料理，從市場採買食材到完成一桌菜餚，是非常有趣且實用的文化體驗，回台後可以重現峇厘風味。</div>
             <div class="tl-tags">
-              <span class="tl-tag tag-cost">💰 SPA IDR 250,000–450,000/2 小時</span>
-              <span class="tl-tag tag-tip">💡 今天下午是這趟旅程最奢侈的放鬆時光</span>
+              <span class="tl-tag tag-tip">💡 建議向飯店提前詢問報名</span>
+              <span class="tl-tag tag-cost">💰 約 IDR 350,000–600,000/人</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DAY 6 -->
+    <div class="day-panel" id="day-6">
+      <div class="day-header">
+        <div class="day-number">06</div>
+        <div>
+          <div class="day-title">巴杜爾火山日出 · 梯田午茶</div>
+          <div class="day-date">4月30日（四）· 03:00 清晨出發挑戰</div>
+        </div>
+      </div>
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-card" style="border-left:3px solid #e05c5c;">
+            <div class="tl-time">凌晨 02:30</div>
+            <div class="tl-name">⏰ 起床 · 出發前準備</div>
+            <div class="tl-desc">確認保暖衣物（山頂約 12°C）、頭燈或手電筒、防風外套。司機已安排於 03:00 在飯店門口等候，務必提前設好鬧鐘。</div>
+            <div class="tl-tags">
+              <span class="tl-tag tag-warn">⚠️ 02:30 起床 · 03:00 出發！</span>
+              <span class="tl-tag tag-tip">💡 提前備好熱水瓶和能量棒</span>
+            </div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-card tl-highlight">
+            <div class="tl-time">03:00 出發</div>
+            <div class="tl-name">🌋 巴杜爾火山登頂看日出 ⭐</div>
+            <div class="tl-desc">挑戰巴杜爾火山登頂（Mt. Batur）！可選擇步行登山或搭乘 4WD 吉普車。在山頂等待壯麗日出從火山湖冉冉升起，雲海與火山口交織的晨光景致，是一生難忘的體驗。</div>
+            <div class="tl-tags">
+              <span class="tl-tag tag-cost">💰 含嚮導、吉普車或步行登山費用</span>
+              <span class="tl-tag tag-tip">🧥 山頂氣溫約 12°C，保暖衣物必備</span>
+            </div>
+            <a href="https://www.klook.com/zh-TW/activity/73775-mount-batur-4wd-jeep-sunrise-tour-photographer-trip-bali/" class="klook-btn" target="_blank" rel="noopener">Klook 預訂火山日出行程</a>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-card tl-highlight">
+            <div class="tl-time">下山後</div>
+            <div class="tl-name">☕ 景觀咖啡廳 · 俯瞰德哥拉朗梯田</div>
+            <div class="tl-desc">下山後前往景觀咖啡廳，俯瞰德哥拉朗梯田（Tegalalang Rice Terrace），在層疊翠綠的稻田景觀中享用咖啡和早餐，作為火山冒險的完美收尾。</div>
+            <div class="tl-tags">
+              <span class="tl-tag tag-cost">💰 咖啡 IDR 50,000–120,000</span>
+              <span class="tl-tag tag-tip">📸 梯田景觀配晨光絕美，適合拍照</span>
             </div>
           </div>
         </div>
         <div class="tl-item">
           <div class="tl-dot"></div>
           <div class="tl-card">
-            <div class="tl-time">19:30</div>
-            <div class="tl-name">🍽️ 晚餐 · 烏布老街美食</div>
-            <div class="tl-desc">在烏布 Hanoman Street 或 Monkey Forest Road 挑選心儀餐廳，推薦 Locavore（創意峇厘料理）或 Warung Ibu Oka（烤乳豬，若 Day 3 未去）。也可選擇飯店內餐廳，享受最後一晚的烏布夜晚。</div>
+            <div class="tl-time">下午</div>
+            <div class="tl-name">🛏️ 返回飯店補眠休息</div>
+            <div class="tl-desc">今天最精彩的行程已在清晨完成！回飯店好好補眠，恢復體力，或在叢林泳池旁放空，享受烏布的寧靜氛圍。</div>
             <div class="tl-tags">
-              <span class="tl-tag tag-cost">💰 IDR 100,000–400,000/人</span>
+              <span class="tl-tag tag-tip">💡 今天下午就留給自己，什麼都不用做</span>
             </div>
           </div>
         </div>
@@ -1109,85 +1047,55 @@
       <div class="day-header">
         <div class="day-number">07</div>
         <div>
-          <div class="day-title">退房烏布 · 工藝村 · 海神廟日落</div>
-          <div class="day-date">5月1日（五）· Ubud → Tanah Lot → Seminyak</div>
+          <div class="day-title">心靈治癒 · 狗狗瑜珈</div>
+          <div class="day-date">5月1日（五）· Ubud 身心靈放鬆日</div>
         </div>
       </div>
       <div class="timeline">
         <div class="tl-item">
           <div class="tl-dot"></div>
-          <div class="tl-card">
-            <div class="tl-time">09:00</div>
-            <div class="tl-name">🧳 退房烏布 · 行李寄存或包車</div>
-            <div class="tl-desc">今天從烏布一路向西，移回南部 Seminyak 住最後一晚。包車司機可協助行李，沿途順道拜訪工藝村和 Tanah Lot，最終送達 Seminyak 飯店。</div>
+          <div class="tl-card tl-highlight">
+            <div class="tl-time">上午</div>
+            <div class="tl-name">💧 Taman Beji Griya Waterfall · 淨化壓力</div>
+            <div class="tl-desc">前往 Taman Beji Griya Waterfall 參加神聖淨化壓力行程。在瀑布旁的神聖空間中，透過傳統儀式淨化身心、釋放壓力，感受峇厘島深厚的靈性文化，是獨一無二的心靈療癒體驗。</div>
             <div class="tl-tags">
-              <span class="tl-tag tag-trans">🚗 全日包車 IDR 500,000–700,000（烏布→田路→Seminyak）</span>
-            </div>
-          </div>
-        </div>
-        <div class="tl-item">
-          <div class="tl-dot"></div>
-          <div class="tl-card">
-            <div class="tl-time">10:00–12:00</div>
-            <div class="tl-name">🏺 烏布周邊工藝村</div>
-            <div class="tl-desc">離開烏布前，順路拜訪知名工藝村：<strong>Celuk</strong>（金銀飾品工坊，可客製化）、<strong>Mas</strong>（精細木雕藝術）、<strong>Batuan</strong>（傳統峇厘繪畫）。直接參觀工匠製作，購買正宗手工伴手禮。</div>
-            <div class="tl-tags">
-              <span class="tl-tag tag-cost">💰 免費參觀，商品價格依品項</span>
-              <span class="tl-tag tag-tip">💡 伴手禮推薦：峇厘咖啡、Lulur 磨砂膏、手工銀飾、木雕小物</span>
-            </div>
-          </div>
-        </div>
-        <div class="tl-item">
-          <div class="tl-dot"></div>
-          <div class="tl-card">
-            <div class="tl-time">12:30–14:00</div>
-            <div class="tl-name">🍽️ 午餐 · 西部沿途餐廳</div>
-            <div class="tl-desc">前往 Tanah Lot 途中（約 1 小時），在路邊景觀餐廳或 Mengwi 小鎮用午餐，補充體力準備下午的神廟日落體驗。</div>
-            <div class="tl-tags">
-              <span class="tl-tag tag-cost">💰 IDR 80,000–150,000/人</span>
-            </div>
-          </div>
-        </div>
-        <div class="tl-item">
-          <div class="tl-dot"></div>
-          <div class="tl-card">
-            <div class="tl-time">15:00–16:30</div>
-            <div class="tl-name">🏪 Tanah Lot 周邊市集 · 採購伴手禮</div>
-            <div class="tl-desc">神廟入口前的市集有豐富紀念品、手工藝品和傳統小吃，在等待日落的同時可以輕鬆採購。這裡的商品價格比烏布稍高，記得殺價。</div>
-            <div class="tl-tags">
-              <span class="tl-tag tag-tip">💡 提早佔好拍照位置，日落前人潮擁擠</span>
+              <span class="tl-tag tag-tip">🌿 著裝莊重，以開放心態參與儀式</span>
+              <span class="tl-tag tag-cost">💰 含導覽與儀式費用</span>
             </div>
           </div>
         </div>
         <div class="tl-item">
           <div class="tl-dot"></div>
           <div class="tl-card tl-highlight">
-            <div class="tl-time">16:30–18:30</div>
-            <div class="tl-name">🌅 Tanah Lot 海神廟日落</div>
-            <div class="tl-desc">峇厘島最著名日落景點！建於海中孤岩上的千年古廟，漲潮時四面環海，配上橘紅色晚霞天空，是無數攝影師夢寐以求的場景。日落後神廟輪廓在橙光中更顯神秘壯觀。</div>
+            <div class="tl-time">下午</div>
+            <div class="tl-name">🐶 Puppy Yoga · 狗狗瑜珈</div>
+            <div class="tl-desc">超療癒的 Puppy Yoga（狗狗瑜珈）體驗！在做瑜珈的同時與可愛的小狗們互動，毛茸茸的治癒力量讓壓力全消。烏布特有的放鬆體驗，保證讓你笑到停不下來。</div>
             <div class="tl-tags">
-              <span class="tl-tag tag-cost">💰 IDR 60,000</span>
-              <span class="tl-tag tag-tip">📸 日落約 18:15–18:45，需提前就定位</span>
+              <span class="tl-tag tag-tip">🐾 穿著舒適的瑜珈服或運動服</span>
+              <span class="tl-tag tag-cost">💰 約 IDR 200,000–350,000/人</span>
             </div>
           </div>
         </div>
         <div class="tl-item">
           <div class="tl-dot"></div>
           <div class="tl-card">
-            <div class="tl-time">19:30</div>
-            <div class="tl-name">🏨 抵達 Seminyak · Check-in</div>
-            <div class="tl-desc">從 Tanah Lot 前往 Seminyak 約 40–50 分鐘，辦理入住，稍作梳洗準備最後的告別夜晚。</div>
+            <div class="tl-time">傍晚（建議）</div>
+            <div class="tl-name">🛕 聖泉寺 Tirta Empul（建議參觀）</div>
+            <div class="tl-desc">傍晚可以前往聖泉寺（Tirta Empul）參觀，那裡的氣氛非常平靜。廟內有 30 個聖水噴泉，是峇厘島最重要的宗教聖地，遊客可參與古老淨化儀式。</div>
+            <div class="tl-tags">
+              <span class="tl-tag tag-cost">💰 IDR 50,000（含沙龍租借）</span>
+              <span class="tl-tag tag-tip">👗 著裝莊重，氣氛非常平靜療癒</span>
+            </div>
           </div>
         </div>
         <div class="tl-item">
           <div class="tl-dot"></div>
-          <div class="tl-card tl-highlight">
-            <div class="tl-time">21:00</div>
-            <div class="tl-name">🍹 Potato Head Beach Club · 告別夜</div>
-            <div class="tl-desc">Seminyak 最著名的海灘俱樂部，超大面海泳池、無數躺椅和現場 DJ。以一杯熱帶雞尾酒搭配峇厘島的夜風，為這趟旅程畫上最完美的句點。</div>
+          <div class="tl-card">
+            <div class="tl-time">晚上</div>
+            <div class="tl-name">🍽️ 晚餐 · 烏布美食</div>
+            <div class="tl-desc">在烏布享用最後一晚的晚餐，推薦到 Ubud Market 附近的餐廳或老街，品嚐傳統峇厘島料理，為烏布之旅畫上完美句點。</div>
             <div class="tl-tags">
-              <span class="tl-tag tag-cost">💰 消費低消約 IDR 300,000–500,000</span>
-              <span class="tl-tag tag-tip">⏰ 週末建議提前訂位</span>
+              <span class="tl-tag tag-cost">💰 IDR 80,000–250,000/人</span>
             </div>
           </div>
         </div>
@@ -1200,55 +1108,65 @@
         <div class="day-number">08</div>
         <div>
           <div class="day-title">返程日 · 帶回美好回憶</div>
-          <div class="day-date">5月2日（六）· 中午前搭機回台</div>
+          <div class="day-date">5月2日（六）· 下午 16:15 飛機經香港回台北</div>
         </div>
       </div>
       <div class="timeline">
         <div class="tl-item">
           <div class="tl-dot"></div>
-          <div class="tl-card">
-            <div class="tl-time">07:00</div>
-            <div class="tl-name">🌅 最後一個峇厘島早晨</div>
-            <div class="tl-desc">早起在飯店泳池旁或海灘享用早餐，感受最後的峇厘島晨光。</div>
-          </div>
-        </div>
-        <div class="tl-item">
-          <div class="tl-dot"></div>
-          <div class="tl-card">
-            <div class="tl-time">08:00</div>
-            <div class="tl-name">🧳 整理行李 · 退房</div>
-            <div class="tl-desc">清點行李，確保伴手禮都安全打包。退房後行李可寄存在飯店。</div>
-          </div>
-        </div>
-        <div class="tl-item">
-          <div class="tl-dot"></div>
-          <div class="tl-card">
-            <div class="tl-time">08:30–09:30</div>
-            <div class="tl-name">🛍️ 最後採購</div>
-            <div class="tl-desc">飯店附近快速掃貨伴手禮：推薦 Kuta Art Market 或超市（Hero / Pepito / Bintang Supermarket），咖啡豆、零食、保養品都可在這裡購買。</div>
+          <div class="tl-card tl-highlight">
+            <div class="tl-time">上午</div>
+            <div class="tl-name">🌅 緩慢享用早餐 · 最後巡禮烏布街道</div>
+            <div class="tl-desc">不用趕！悠閒享用早餐，最後漫步烏布街道，感受這座藝術小城的早晨氛圍，帶走最後的峇厘島記憶。</div>
             <div class="tl-tags">
-              <span class="tl-tag tag-tip">💡 Bintang Supermarket 的零食和調味料是最佳伴手禮</span>
+              <span class="tl-tag tag-tip">💡 最後機會在烏布買遺漏的紀念品</span>
+            </div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-time">12:00 前</div>
+            <div class="tl-name">🧳 辦理退房</div>
+            <div class="tl-desc">清點行李，確保伴手禮都安全打包，12:00 前完成退房手續。</div>
+            <div class="tl-tags">
+              <span class="tl-tag tag-warn">⚠️ 12:00 前完成退房</span>
             </div>
           </div>
         </div>
         <div class="tl-item">
           <div class="tl-dot"></div>
           <div class="tl-card tl-highlight">
-            <div class="tl-time">09:30</div>
-            <div class="tl-name">🚗 前往機場</div>
-            <div class="tl-desc">中午班機建議 09:30–10:00 出發前往機場（視飯店位置距機場 20–45 分鐘），建議至少在起飛前 2.5 小時到達，峇厘島機場安檢有時排隊較長。</div>
+            <div class="tl-time">12:00</div>
+            <div class="tl-name">🚗 出發前往機場（車程約 2 小時）</div>
+            <div class="tl-desc">從烏布前往 Ngurah Rai 機場車程約 2 小時，需預留充裕時間，避免塞車造成趕機。建議提前預訂包車送機服務。</div>
             <div class="tl-tags">
-              <span class="tl-tag tag-cost">💰 包車送機 IDR 200,000–350,000</span>
-              <span class="tl-tag tag-warn">⚠️ 國際線建議提前 2.5 小時到機場</span>
+              <span class="tl-tag tag-trans">🚗 車程約 2 小時，建議提前出發</span>
+              <span class="tl-tag tag-cost">💰 包車送機 IDR 300,000–450,000</span>
             </div>
           </div>
         </div>
         <div class="tl-item">
           <div class="tl-dot"></div>
           <div class="tl-card">
-            <div class="tl-time">中午</div>
-            <div class="tl-name">✈️ 起飛返台 · 旅程完美結束</div>
-            <div class="tl-desc">帶著滿滿的回憶、曬黑的皮膚、和一袋伴手禮，搭機返回台灣。峇厘島，下次見！</div>
+            <div class="tl-time">13:00</div>
+            <div class="tl-name">🛫 抵達機場 · 準備搭機</div>
+            <div class="tl-desc">13:00 抵達機場，辦理報到、托運行李、通關，在免稅店最後採購，準備搭乘 16:15 的飛機。國際線建議提前 2.5–3 小時到機場。</div>
+            <div class="tl-tags">
+              <span class="tl-tag tag-tip">🛍️ 機場免稅店可購買最後伴手禮</span>
+              <span class="tl-tag tag-warn">⚠️ 國際線建議提前 2.5 小時完成報到</span>
+            </div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-card tl-highlight">
+            <div class="tl-time">16:15</div>
+            <div class="tl-name">✈️ 起飛 · 經香港返回台北</div>
+            <div class="tl-desc">帶著滿滿的回憶、曬黑的皮膚、和一袋伴手禮，搭機經香港返回台北。峇厘島，下次見！</div>
+            <div class="tl-tags">
+              <span class="tl-tag tag-tip">🛫 16:15 起飛，經香港轉機回台北</span>
+            </div>
           </div>
         </div>
       </div>
@@ -1265,51 +1183,104 @@
     <!-- Day filter buttons -->
     <div id="map-day-filters" style="display:flex;flex-wrap:wrap;gap:10px;margin-bottom:20px;">
       <button class="map-day-btn active" data-day="all" onclick="filterMapDay('all')">全部路線</button>
-      <button class="map-day-btn" data-day="1" onclick="filterMapDay('1')">Day 1 · 抵達南部</button>
-      <button class="map-day-btn" data-day="2" onclick="filterMapDay('2')">Day 2 · Uluwatu</button>
-      <button class="map-day-btn" data-day="3" onclick="filterMapDay('3')">Day 3 · 移師烏布</button>
-      <button class="map-day-btn" data-day="4" onclick="filterMapDay('4')">Day 4 · 巴杜爾日出</button>
-      <button class="map-day-btn" data-day="5" onclick="filterMapDay('5')">Day 5 · Nusa Penida</button>
-      <button class="map-day-btn" data-day="6" onclick="filterMapDay('6')">Day 6 · ATV 越野</button>
-      <button class="map-day-btn" data-day="7" onclick="filterMapDay('7')">Day 7 · Tanah Lot</button>
+      <button class="map-day-btn" data-day="1" onclick="filterMapDay('1')">Day 1 · 抵達努沙杜瓦</button>
+      <button class="map-day-btn" data-day="2" onclick="filterMapDay('2')">Day 2 · 佩尼達島</button>
+      <button class="map-day-btn" data-day="3" onclick="filterMapDay('3')">Day 3 · Uluwatu → 烏布</button>
+      <button class="map-day-btn" data-day="4" onclick="filterMapDay('4')">Day 4 · 購物 · 音療</button>
+      <button class="map-day-btn" data-day="5" onclick="filterMapDay('5')">Day 5 · ATV 越野</button>
+      <button class="map-day-btn" data-day="6" onclick="filterMapDay('6')">Day 6 · 巴杜爾日出</button>
+      <button class="map-day-btn" data-day="7" onclick="filterMapDay('7')">Day 7 · 心靈治癒</button>
       <button class="map-day-btn" data-day="8" onclick="filterMapDay('8')">Day 8 · 返程</button>
     </div>
 
-    <div id="bali-map" style="height:520px;border-radius:14px;box-shadow:0 4px 24px rgba(0,0,0,.12);"></div>
-
-    <!-- Legend -->
-    <div id="map-legend" style="display:flex;flex-wrap:wrap;gap:14px;margin-top:18px;">
-      <div style="display:flex;align-items:center;gap:6px;font-size:.82rem;color:#555;"><span style="display:inline-block;width:24px;height:4px;background:#e05c5c;border-radius:2px;"></span>Day 1</div>
-      <div style="display:flex;align-items:center;gap:6px;font-size:.82rem;color:#555;"><span style="display:inline-block;width:24px;height:4px;background:#e07c2a;border-radius:2px;"></span>Day 2</div>
-      <div style="display:flex;align-items:center;gap:6px;font-size:.82rem;color:#555;"><span style="display:inline-block;width:24px;height:4px;background:#c8a800;border-radius:2px;"></span>Day 3</div>
-      <div style="display:flex;align-items:center;gap:6px;font-size:.82rem;color:#555;"><span style="display:inline-block;width:24px;height:4px;background:#4caf50;border-radius:2px;"></span>Day 4</div>
-      <div style="display:flex;align-items:center;gap:6px;font-size:.82rem;color:#555;"><span style="display:inline-block;width:24px;height:4px;background:#0097a7;border-radius:2px;"></span>Day 5</div>
-      <div style="display:flex;align-items:center;gap:6px;font-size:.82rem;color:#555;"><span style="display:inline-block;width:24px;height:4px;background:#6a5acd;border-radius:2px;"></span>Day 6</div>
-      <div style="display:flex;align-items:center;gap:6px;font-size:.82rem;color:#555;"><span style="display:inline-block;width:24px;height:4px;background:#e91e8c;border-radius:2px;"></span>Day 7</div>
-      <div style="display:flex;align-items:center;gap:6px;font-size:.82rem;color:#555;"><span style="display:inline-block;width:24px;height:4px;background:#888;border-radius:2px;"></span>Day 8</div>
+    <!-- Map Widget: Sidebar + Map -->
+    <div id="map-widget-container">
+      <div id="map-sidebar"></div>
+      <div id="bali-map"></div>
     </div>
+
+    <!-- Legend (auto-generated by JS) -->
+    <div id="map-legend"></div>
   </div>
 </section>
 
 <style>
+  /* ── MAP DAY FILTER PILLS ── */
   .map-day-btn {
     padding: 8px 16px; border-radius: 20px; border: 2px solid var(--teal);
     background: #fff; color: var(--teal); font-size: .8rem; font-weight: 600;
     cursor: pointer; transition: all .2s; font-family: 'Noto Sans TC', sans-serif;
   }
-  .map-day-btn:hover, .map-day-btn.active {
-    background: var(--teal); color: #fff;
+  .map-day-btn:hover, .map-day-btn.active { background: var(--teal); color: #fff; }
+
+  /* ── MAP WIDGET CONTAINER ── */
+  #map-widget-container {
+    display: flex; gap: 0; border-radius: 14px; overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,.12); height: 520px;
   }
-  .leaflet-popup-content-wrapper { border-radius: 10px !important; }
-  .map-popup-day { font-size:.72rem; letter-spacing:2px; font-weight:700; text-transform:uppercase; margin-bottom:4px; }
-  .map-popup-name { font-size:.95rem; font-weight:700; color:#1a1a2e; margin-bottom:4px; }
-  .map-popup-desc { font-size:.8rem; color:#666; line-height:1.5; }
-  .map-num-label {
-    background: var(--dayColor, #2d9b8a); color: #fff;
-    border-radius: 50%; width: 26px; height: 26px;
+
+  /* ── SIDEBAR ── */
+  #map-sidebar {
+    width: 270px; flex-shrink: 0;
+    background: #1a1a2e; overflow-y: auto;
+    display: flex; flex-direction: column;
+    scrollbar-width: thin; scrollbar-color: rgba(255,255,255,.2) transparent;
+  }
+  #map-sidebar::-webkit-scrollbar { width: 4px; }
+  #map-sidebar::-webkit-scrollbar-thumb { background: rgba(255,255,255,.2); border-radius: 2px; }
+
+  .sb-day { border-bottom: 1px solid rgba(255,255,255,.07); }
+  .sb-day-header {
+    display: flex; align-items: center; gap: 10px; padding: 12px 14px;
+    cursor: pointer; transition: background .18s;
+    border-left: 3px solid var(--day-color, #2d9b8a);
+  }
+  .sb-day-header:hover { background: rgba(255,255,255,.06); }
+  .sb-day-dot {
+    width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0;
+  }
+  .sb-day-label { color: #fff; font-size: .78rem; font-weight: 700; line-height: 1.3; }
+  .sb-day-date  { color: rgba(255,255,255,.45); font-size: .68rem; margin-top: 1px; }
+  .sb-day-arrow { color: rgba(255,255,255,.4); font-size: .7rem; margin-left: auto; transition: transform .2s; flex-shrink: 0; }
+
+  .sb-stops { background: rgba(0,0,0,.2); }
+  .sb-stop {
+    display: flex; align-items: flex-start; gap: 10px;
+    padding: 9px 14px 9px 18px; cursor: pointer;
+    border-left: 3px solid transparent;
+    transition: background .15s, border-color .15s;
+  }
+  .sb-stop:hover { background: rgba(255,255,255,.05); }
+  .sb-stop.active {
+    background: rgba(255,255,255,.08);
+    border-left-color: var(--stop-color, #2d9b8a);
+  }
+  .sb-stop-num {
+    flex-shrink: 0; width: 20px; height: 20px; border-radius: 50%;
     display: flex; align-items: center; justify-content: center;
-    font-size: .75rem; font-weight: 700; border: 2px solid #fff;
-    box-shadow: 0 2px 6px rgba(0,0,0,.3);
+    font-size: .65rem; font-weight: 700; color: #fff; margin-top: 1px;
+  }
+  .sb-stop-time { color: rgba(255,255,255,.4); font-size: .65rem; margin-bottom: 2px; }
+  .sb-stop-name { color: rgba(255,255,255,.82); font-size: .75rem; line-height: 1.4; }
+
+  /* ── MAP ── */
+  #bali-map { flex: 1; min-width: 0; }
+
+  /* ── LEGEND ── */
+  #map-legend { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 18px; }
+
+  /* ── POPUP ── */
+  .leaflet-popup-content-wrapper { border-radius: 10px !important; }
+  .map-popup-day  { font-size:.72rem; letter-spacing:2px; font-weight:700; text-transform:uppercase; margin-bottom:4px; }
+  .map-popup-name { font-size:.95rem; font-weight:700; color:#1a1a2e; margin-bottom:3px; }
+  .map-popup-time { color:#2d9b8a; font-size:.75rem; margin-bottom:3px; }
+  .map-popup-desc { font-size:.8rem; color:#666; line-height:1.5; }
+
+  /* ── RESPONSIVE: mobile stacks vertically ── */
+  @media (max-width: 680px) {
+    #map-widget-container { flex-direction: column; height: auto; }
+    #map-sidebar { width: 100%; max-height: 220px; flex-direction: row; flex-wrap: wrap; }
+    #bali-map { height: 360px; }
   }
 </style>
 
@@ -1876,179 +1847,247 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
 (function() {
-  // Day colors
   const DAY_COLORS = {
-    1: '#e05c5c',
-    2: '#e07c2a',
-    3: '#c8a800',
-    4: '#4caf50',
-    5: '#0097a7',
-    6: '#6a5acd',
-    7: '#e91e8c',
-    8: '#888888'
+    1: '#e05c5c', 2: '#e07c2a', 3: '#c8a800', 4: '#4caf50',
+    5: '#0097a7', 6: '#6a5acd', 7: '#e91e8c', 8: '#888888'
   };
 
-  // All itinerary waypoints per day
+  // Updated itinerary data matching new schedule
   const DAYS = {
     1: {
-      label: 'Day 1 · 抵達南部',
-      date: '4/25',
+      label: 'Day 1 · 抵達 · 努沙杜瓦',
+      date: '4/25（六）',
       points: [
-        { name: '✈️ Ngurah Rai 機場', lat: -8.7467, lng: 115.1672, desc: '抵達峇厘島，辦 SIM 卡、換匯', order: 1 },
-        { name: '🚗 前往 Seminyak 飯店', lat: -8.6906, lng: 115.1670, desc: 'Day 1–2 住宿地點', order: 2 },
-        { name: '🌊 Seminyak Beach', lat: -8.6880, lng: 115.1600, desc: '海灘散步，感受峇厘島氛圍', order: 3 },
-        { name: '🍽️ La Plancha 沙灘餐廳', lat: -8.6925, lng: 115.1580, desc: '彩色豆袋椅海景晚餐，日落必打卡', order: 4 }
+        { name: '✈️ Ngurah Rai 機場 (DPS)', lat: -8.7467, lng: 115.1672, time: '17:40', desc: '抵達峇厘島，辦 SIM 卡、換匯' },
+        { name: '🍸 Rock Bar · AYANA Resort, Jimbaran', lat: -8.8012, lng: 115.1337, time: '~19:00', desc: '14公尺岩壁上的傳奇酒吧，俯瞰印度洋，從機場僅 15 分鐘' },
+        { name: '🍽️ oneeighty° Dayclub · AYANA Resort', lat: -8.8005, lng: 115.1330, time: '~20:00', desc: '無邊際泳池海景餐廳，Rock Bar 步行即達' },
+        { name: '🏨 Village Bali · Nusa Dua', lat: -8.7989, lng: 115.2317, time: '~22:00', desc: 'AYANA → Village Bali 約 25–30 分鐘，24小時可 check-in' }
       ]
     },
     2: {
-      label: 'Day 2 · Uluwatu 日落',
-      date: '4/26',
+      label: 'Day 2 · 佩尼達島一日遊',
+      date: '4/26（日）',
       points: [
-        { name: '🏄 Kuta Beach 衝浪', lat: -8.7181, lng: 115.1686, desc: '初學者衝浪聖地，1.5小時課程', order: 1 },
-        { name: '🛕 Uluwatu 懸崖神廟', lat: -8.8291, lng: 115.0849, desc: '70公尺懸崖古廟，俯瞰印度洋', order: 2 },
-        { name: '🔥 Kecak 卡克火舞', lat: -8.8295, lng: 115.0840, desc: '懸崖邊百人火舞，峇厘島最震撼表演', order: 3 },
-        { name: '🌅 Single Fin 懸崖餐廳', lat: -8.8262, lng: 115.0889, desc: '俯瞰懸崖衝浪點，夜景絕佳', order: 4 }
+        { name: '⛵ 碼頭搭船出發', lat: -8.7231, lng: 115.2653, time: '早上', desc: '前往碼頭搭快船，記得吃暈船藥，船程約 40 分鐘' },
+        { name: '🦖 Kelingking Beach', lat: -8.8618, lng: 115.4527, time: '島上', desc: 'T-Rex 斷崖，Nusa Penida 最標誌性景觀' },
+        { name: '🌊 Broken Beach', lat: -8.7328, lng: 115.4678, time: '島上', desc: '天然拱橋環抱的圓形海灣，海水清澈翠綠' },
+        { name: '🤿 Crystal Bay 浮潛', lat: -8.7272, lng: 115.4477, time: '下午', desc: '與曼塔魟魚同游，珊瑚礁豐富能見度高' },
+        { name: '💆 返回努沙杜瓦做 SPA', lat: -8.7989, lng: 115.2317, time: '傍晚', desc: '搭船返回，回飯店做 SPA 恢復體力' }
       ]
     },
     3: {
-      label: 'Day 3 · 移師烏布',
-      date: '4/27',
+      label: 'Day 3 · Uluwatu → 烏布',
+      date: '4/27（一）',
       points: [
-        { name: '🧳 Seminyak 退房', lat: -8.6906, lng: 115.1670, desc: '包車前往烏布，約1.5小時', order: 1 },
-        { name: '🌾 Tegallalang 梯田', lat: -8.4320, lng: 115.2789, desc: '世界文化遺產，層疊翠綠稻田', order: 2 },
-        { name: '🛍️ Ubud 傳統市場', lat: -8.5069, lng: 115.2625, desc: '烏布皇宮旁，手工藝品購物', order: 3 },
-        { name: '🐒 Sacred Monkey Forest', lat: -8.5186, lng: 115.2588, desc: '700多隻長尾猴，三座古廟', order: 4 },
-        { name: '🍖 Ibu Oka 烤乳豬', lat: -8.5062, lng: 115.2638, desc: 'Anthony Bourdain 推薦，峇厘島極致美食', order: 5 }
+        { name: '🏊 努沙杜瓦飯店泳池', lat: -8.7989, lng: 115.2317, time: '上午', desc: '享受飯店最後時光，中午辦理退房' },
+        { name: '🛕 烏魯瓦圖廟', lat: -8.8291, lng: 115.0849, time: '下午', desc: '70公尺懸崖古廟，俯瞰印度洋，注意猴子！' },
+        { name: '🔥 Kecak 卡克火舞', lat: -8.8295, lng: 115.0840, time: '17:30 前入場', desc: '懸崖邊百人火舞，峇厘島最震撼的表演' },
+        { name: '🏨 The Wakanda Resort · a Pramana Experience', lat: -8.5069, lng: 115.2625, time: '晚上', desc: '火舞後直接搭車前往烏布，車程約 1–1.5 小時，烏布叢林精品渡假村' }
       ]
     },
     4: {
-      label: 'Day 4 · 文化深度',
-      date: '4/28',
+      label: 'Day 4 · 購物 · 音療',
+      date: '4/28（二）',
       points: [
-        { name: '💧 Tirta Empul 聖泉廟', lat: -8.4151, lng: 115.3148, desc: '峇厘島最重要宗教聖地，淨化儀式', order: 1 },
-        { name: '🌋 Kintamani 火山景觀', lat: -8.2400, lng: 115.3797, desc: '海拔1500m，阿貢火山與火山湖全景', order: 2 },
-        { name: '🏺 烏布工藝村 (Celuk/Mas)', lat: -8.5519, lng: 115.2839, desc: '金銀飾品、木雕、傳統繪畫工藝村', order: 3 },
-        { name: '💆 峇厘傳統 SPA', lat: -8.5050, lng: 115.2630, desc: '叢林環境中的全套峇厘式按摩', order: 4 },
-        { name: '💃 烏布皇宮舞蹈表演', lat: -8.5066, lng: 115.2629, desc: 'Puri Saren 每晚傳統舞蹈表演', order: 5 }
+        { name: '🛍️ 烏布市集 / 水明漾廣場', lat: -8.5069, lng: 115.2625, time: '上午', desc: '挑選手工藝品、紀念品，記得殺價' },
+        { name: '🦆 Sun Sun Warung · 髒鴨飯', lat: -8.5083, lng: 115.2632, time: '午餐', desc: '烏布必吃！慢火烤鴨 Bebek Betutu，外酥內嫩，最道地峇厘料理' },
+        { name: '🎵 音療 Sound Healing', lat: -8.5095, lng: 115.2645, time: '16:30', desc: '頌缽音療，透過聲波達到深層身心靈放鬆' },
+        { name: '🍴 烏布市集晚餐', lat: -8.5062, lng: 115.2638, time: '晚上', desc: '市集周邊享用峇厘島傳統料理' }
       ]
     },
     5: {
-      label: 'Day 5 · Nusa Penida',
-      date: '4/29',
+      label: 'Day 5 · ATV 越野',
+      date: '4/29（三）',
       points: [
-        { name: '🚗 出發前往 Sanur 港口', lat: -8.6866, lng: 115.2655, desc: '搭快船前往 Nusa Penida，約30-45分鐘', order: 1 },
-        { name: '🦖 Kelingking Beach T-Rex斷崖', lat: -8.8618, lng: 115.4527, desc: 'Nusa Penida 最標誌性景觀，恐龍頭岩石', order: 2 },
-        { name: '🌊 Broken Beach + Angel\'s Billabong', lat: -8.7328, lng: 115.4678, desc: '天然拱橋海灣 + 岩石天然游泳池', order: 3 },
-        { name: '🐟 Crystal Bay 曼塔魟魚浮潛', lat: -8.7272, lng: 115.4477, desc: '與3-5公尺巨大曼塔魟魚同游', order: 4 },
-        { name: '⛵ 返回 Sanur', lat: -8.6866, lng: 115.2655, desc: '搭快船回峇厘島', order: 5 }
+        { name: '🏍️ ATV 越野出發點', lat: -8.4880, lng: 115.2398, time: '上午', desc: '車程僅 10 分鐘，穿越叢林稻田越野約 1 小時' },
+        { name: '🏨 烏布飯店泳池放鬆', lat: -8.5069, lng: 115.2625, time: '下午', desc: '享受森林景觀無邊際泳池，徹底充電' },
+        { name: '👨‍🍳 飯店烹飪課（可選）', lat: -8.5080, lng: 115.2630, time: '下午', desc: '學做傳統峇厘島料理，回台可以重現峇厘風味' }
       ]
     },
     6: {
-      label: 'Day 6 · Tanah Lot',
-      date: '4/30',
+      label: 'Day 6 · 巴杜爾火山日出',
+      date: '4/30（四）',
       points: [
-        { name: '🌿 Ayung River 白水漂流 / Bali Swing', lat: -8.4880, lng: 115.2398, desc: '叢林漂流或梯田高空鞦韆二選一', order: 1 },
-        { name: '🌅 Tanah Lot 海神廟日落', lat: -8.6215, lng: 115.0866, desc: '峇厘島最著名日落景點，海中岩石神廟', order: 2 },
-        { name: '🦞 Jimbaran 海鮮燒烤晚餐', lat: -8.7831, lng: 115.1640, desc: '沙灘上享用龍蝦螃蟹等新鮮海鮮燒烤', order: 3 }
+        { name: '🌋 巴杜爾火山 Mt. Batur', lat: -8.2418, lng: 115.3756, time: '03:00 出發', desc: '凌晨出發挑戰火山登頂，看壯麗日出' },
+        { name: '☕ 德哥拉朗梯田景觀咖啡廳', lat: -8.4320, lng: 115.2789, time: '下山後', desc: '俯瞰層疊翠綠梯田，享用麝香貓咖啡' },
+        { name: '🛏️ 烏布飯店補眠', lat: -8.5069, lng: 115.2625, time: '下午', desc: '火山體力消耗大，回飯店好好補眠恢復' }
       ]
     },
     7: {
-      label: 'Day 7 · 自由日',
-      date: '5/1',
+      label: 'Day 7 · 心靈治癒',
+      date: '5/1（五）',
       points: [
-        { name: '☕ Canggu 文青咖啡廳', lat: -8.6478, lng: 115.1385, desc: '峇厘島最文青區域，稻田或叢林咖啡廳', order: 1 },
-        { name: '🛍️ Seminyak/Canggu 購物', lat: -8.6906, lng: 115.1670, desc: 'Seminyak Square、Oberoi Street精品購物', order: 2 },
-        { name: '🌺 峇厘島 SPA 療程', lat: -8.6900, lng: 115.1650, desc: '全套峇厘式按摩+花浴，身心放鬆', order: 3 },
-        { name: '🍹 Potato Head Beach Club', lat: -8.6905, lng: 115.1595, desc: 'Seminyak 最著名沙灘俱樂部，日落雞尾酒', order: 4 }
+        { name: '💧 Taman Beji Griya 瀑布', lat: -8.5236, lng: 115.0943, time: '上午', desc: '神聖瀑布淨化壓力行程，釋放身心' },
+        { name: '🐶 Puppy Yoga 狗狗瑜珈', lat: -8.5100, lng: 115.2620, time: '下午', desc: '與可愛小狗們做瑜珈，超療癒體驗' },
+        { name: '🛕 聖泉寺 Tirta Empul', lat: -8.4151, lng: 115.3148, time: '傍晚（建議）', desc: '氣氛非常平靜，古老淨化儀式' }
       ]
     },
     8: {
       label: 'Day 8 · 返程',
-      date: '5/2',
+      date: '5/2（六）',
       points: [
-        { name: '🛍️ Kuta Art Market 最後採購', lat: -8.7181, lng: 115.1700, desc: '咖啡豆、零食、保養品伴手禮', order: 1 },
-        { name: '✈️ Ngurah Rai 機場出發', lat: -8.7467, lng: 115.1672, desc: '中午班機返台，峇厘島再見！', order: 2 }
+        { name: '☕ 緩慢早餐 · 最後烏布街道', lat: -8.5069, lng: 115.2625, time: '上午', desc: '不用趕，悠閒享用早餐，最後逛烏布街道' },
+        { name: '✈️ Ngurah Rai 機場出發', lat: -8.7467, lng: 115.1672, time: '16:15', desc: '13:00 抵達機場，16:15 飛機經香港回台北' }
       ]
     }
   };
 
-  // Initialize map
-  const map = L.map('bali-map', { zoomControl: true }).setView([-8.55, 115.25], 10);
+  // ── Build sidebar ──────────────────────────────────────
+  const sidebar = document.getElementById('map-sidebar');
+  let sidebarHTML = '';
+  Object.keys(DAYS).forEach(dayKey => {
+    const day = DAYS[dayKey];
+    const color = DAY_COLORS[dayKey];
+    sidebarHTML += `
+      <div class="sb-day" id="sb-day-${dayKey}">
+        <div class="sb-day-header" onclick="toggleSbDay(${dayKey})" style="--day-color:${color}">
+          <span class="sb-day-dot" style="background:${color}"></span>
+          <div style="flex:1;min-width:0">
+            <div class="sb-day-label">${day.label}</div>
+            <div class="sb-day-date">${day.date}</div>
+          </div>
+          <span class="sb-day-arrow" id="sb-arrow-${dayKey}">▾</span>
+        </div>
+        <div class="sb-stops" id="sb-stops-${dayKey}" style="display:none">`;
+    day.points.forEach((p, idx) => {
+      sidebarHTML += `
+          <div class="sb-stop" id="sb-stop-${dayKey}-${idx}"
+               onclick="focusStop(${dayKey},${idx})"
+               style="--stop-color:${color}">
+            <span class="sb-stop-num" style="background:${color}">${idx + 1}</span>
+            <div class="sb-stop-info">
+              <div class="sb-stop-time">${p.time}</div>
+              <div class="sb-stop-name">${p.name}</div>
+            </div>
+          </div>`;
+    });
+    sidebarHTML += `</div></div>`;
+  });
+  sidebar.innerHTML = sidebarHTML;
 
+  // Open Day 1 by default
+  document.getElementById('sb-stops-1').style.display = 'block';
+  document.getElementById('sb-arrow-1').style.transform = 'rotate(180deg)';
+
+  // ── Build legend ───────────────────────────────────────
+  const legend = document.getElementById('map-legend');
+  legend.innerHTML = Object.keys(DAYS).map(k => `
+    <div style="display:flex;align-items:center;gap:6px;font-size:.82rem;color:#555;cursor:pointer"
+         onclick="filterMapDay('${k}')">
+      <span style="display:inline-block;width:24px;height:4px;background:${DAY_COLORS[k]};border-radius:2px;"></span>
+      Day ${k}
+    </div>`).join('');
+
+  // ── Init Leaflet map ──────────────────────────────────
+  const map = L.map('bali-map', { zoomControl: true }).setView([-8.55, 115.25], 10);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     maxZoom: 18
   }).addTo(map);
 
-  // Store layers for filtering
   const dayLayers = {};
+  const markerRefs = {}; // markerRefs[dayKey][idx] = Leaflet marker
 
-  function createDayIcon(color, orderNum) {
+  function makeDayIcon(color, num) {
     return L.divIcon({
       className: '',
-      html: `<div style="background:${color};color:#fff;border-radius:50%;width:28px;height:28px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.35);">${orderNum}</div>`,
-      iconSize: [28, 28],
-      iconAnchor: [14, 14],
-      popupAnchor: [0, -16]
+      html: `<div style="background:${color};color:#fff;border-radius:50%;width:28px;height:28px;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.4);">${num}</div>`,
+      iconSize: [28, 28], iconAnchor: [14, 14], popupAnchor: [0, -18]
     });
   }
 
   Object.keys(DAYS).forEach(dayKey => {
     const day = DAYS[dayKey];
     const color = DAY_COLORS[dayKey];
-    const layerGroup = L.layerGroup();
+    const group = L.layerGroup();
+    markerRefs[dayKey] = [];
 
     const latlngs = day.points.map(p => [p.lat, p.lng]);
+    group.addLayer(L.polyline(latlngs, {
+      color, weight: 3, opacity: 0.75,
+      dashArray: dayKey == 2 ? '8,6' : null   // dashed = sea route (Penida)
+    }));
 
-    // Route polyline
-    const line = L.polyline(latlngs, {
-      color: color, weight: 3, opacity: 0.8,
-      dashArray: dayKey == 5 ? '8,6' : null  // dashed for sea route
-    });
-    layerGroup.addLayer(line);
-
-    // Markers
-    day.points.forEach(p => {
-      const marker = L.marker([p.lat, p.lng], {
-        icon: createDayIcon(color, p.order)
-      });
+    day.points.forEach((p, idx) => {
+      const marker = L.marker([p.lat, p.lng], { icon: makeDayIcon(color, idx + 1) });
       marker.bindPopup(`
-        <div style="min-width:180px;">
-          <div class="map-popup-day" style="color:${color};">Day ${dayKey} · ${day.date}</div>
+        <div style="min-width:195px;">
+          <div class="map-popup-day" style="color:${color}">Day ${dayKey} · ${day.date}</div>
           <div class="map-popup-name">${p.name}</div>
+          <div class="map-popup-time">⏰ ${p.time}</div>
           <div class="map-popup-desc">${p.desc}</div>
-        </div>
-      `);
-      layerGroup.addLayer(marker);
+        </div>`);
+      marker.on('click', () => highlightSidebar(dayKey, idx));
+      group.addLayer(marker);
+      markerRefs[dayKey][idx] = marker;
     });
 
-    layerGroup.addTo(map);
-    dayLayers[dayKey] = layerGroup;
+    group.addTo(map);
+    dayLayers[dayKey] = group;
   });
 
-  // Filter function
-  window.filterMapDay = function(dayKey) {
-    // Update buttons
+  // ── State ─────────────────────────────────────────────
+  let activeDay = null, activeStop = null;
+
+  function clearActive() {
+    if (activeDay !== null && activeStop !== null) {
+      const el = document.getElementById(`sb-stop-${activeDay}-${activeStop}`);
+      if (el) el.classList.remove('active');
+    }
+  }
+
+  function highlightSidebar(dayKey, idx) {
+    // Ensure day section is open
+    const stopsEl = document.getElementById('sb-stops-' + dayKey);
+    if (stopsEl && stopsEl.style.display === 'none') toggleSbDay(dayKey);
+    // Highlight stop
+    clearActive();
+    activeDay = dayKey; activeStop = idx;
+    const el = document.getElementById(`sb-stop-${dayKey}-${idx}`);
+    if (el) { el.classList.add('active'); el.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }
+  }
+
+  // ── Public functions (called from HTML) ───────────────
+  window.toggleSbDay = function(dayKey) {
+    const stops = document.getElementById('sb-stops-' + dayKey);
+    const arrow = document.getElementById('sb-arrow-' + dayKey);
+    const open = stops.style.display !== 'none';
+    stops.style.display = open ? 'none' : 'block';
+    arrow.style.transform = open ? '' : 'rotate(180deg)';
+  };
+
+  window.focusStop = function(dayKey, idx) {
+    const p = DAYS[dayKey].points[idx];
+    highlightSidebar(dayKey, idx);
+    // Ensure day layer is visible
+    Object.keys(dayLayers).forEach(k => {
+      if (k === String(dayKey)) map.addLayer(dayLayers[k]);
+      else map.removeLayer(dayLayers[k]);
+    });
     document.querySelectorAll('.map-day-btn').forEach(b => {
       b.classList.toggle('active', b.dataset.day === String(dayKey));
     });
+    map.setView([p.lat, p.lng], 14, { animate: true });
+    setTimeout(() => markerRefs[dayKey][idx] && markerRefs[dayKey][idx].openPopup(), 400);
+  };
 
+  window.filterMapDay = function(dayKey) {
+    document.querySelectorAll('.map-day-btn').forEach(b => {
+      b.classList.toggle('active', b.dataset.day === String(dayKey));
+    });
     if (dayKey === 'all') {
       Object.values(dayLayers).forEach(l => map.addLayer(l));
       map.setView([-8.55, 115.25], 10);
     } else {
       Object.keys(dayLayers).forEach(k => {
-        if (k === String(dayKey)) {
-          map.addLayer(dayLayers[k]);
-        } else {
-          map.removeLayer(dayLayers[k]);
-        }
+        if (k === String(dayKey)) map.addLayer(dayLayers[k]);
+        else map.removeLayer(dayLayers[k]);
       });
-      // Fit map to the selected day's bounds
       const latlngs = DAYS[dayKey].points.map(p => [p.lat, p.lng]);
-      if (latlngs.length) {
-        map.fitBounds(L.latLngBounds(latlngs), { padding: [40, 40] });
-      }
+      if (latlngs.length) map.fitBounds(L.latLngBounds(latlngs), { padding: [50, 50] });
+      // Also open that day in sidebar
+      const stopsEl = document.getElementById('sb-stops-' + dayKey);
+      if (stopsEl && stopsEl.style.display === 'none') toggleSbDay(dayKey);
     }
   };
 })();
